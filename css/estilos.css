@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.header-index{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/img/img-backgroundIndez.jpg);
+    background-position: center;
+    height: 110vh;
+    background-size: cover;
+
+}
+.navbar .navbar-nav{
+    list-style: none;
+}
+.navbar .nav-link{
+    color:white;
+    font-size: 1.2rem;
+    margin:10px;
+}
+.navbar .nav-link:hover{
+    color:#000000;
+    border-bottom: 1px solid black ;
+}
+.navbar .nav-item{
+    width:200px;
+    margin-top:20px;
+    text-align: center;
+}
+.nav-item .img-logo{
+    width:160px;
+    height:85px;
+
+
+}
+
+.portada-textos{
+    margin:10px;
+    color:white;
+}
+.portada-textos p{
+    width:45%;
+    margin:10px;
+    padding-bottom: 10px ;   
+    font-size: 1.05rem;
+    line-height: 2;
+    
+}
+.portada-textos .portada-title{
+    width:50%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn-portada{
+    background-color: rgb(255, 255, 255);
+    color:#36240d;
+    width:25%;
+    padding:10px 40px;
+    border-radius: 50px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-portada:hover{
+    background-color:#36240d;
+    color:white;
+    padding:10px 35px;
+    border-radius: 50px;
+    transform: scale(1.1, 1);
+    transition-duration: 1s;
+}
+ .title{
+    font-size: 3rem;
+    color:#095037;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.img-index{
+    width:600px;
+    height: 380px;
+
+}
+
+.text-introduccion{
+    color:#818181;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.text-index{
+    color:rgb(85, 85, 85);
+    text-align: justify;
+    line-height: 1,5;
+    padding-bottom: 10px;
+    width:90%;
+}
+
+.columnaUno .fa-solid{
+    font-size: 2rem;
+}
+.maquina-index{
+    width:350px;
+    height: 280px;
+    margin:10px;
+    padding:10px;
+}
+.maquina-index:hover{
+    transform: scale(1.2,1.1);
+    transition-duration: 1.5s;
+}
+.maquina{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.a-index{
+    color:black;
+    text-decoration: none;
+}
+.a-index:hover{
+    color:#0A6847;
+}
+.carousel-1{
+    width:100%;
+}
+
+.flyer{
+    background-image: url(../assets/img/carousel-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    height:55vh;
+    object-fit: cover;
+    width: 100%;
+    margin:50px 0 30px;
+}
+.fondo-blur{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.356);
+    width:60%;
+    height:55vh;
+}
+.p-flyer{
+    font-size: 1.2rem;
+}
+
+.a-flyer{
+    background-color: white;
+    color:#0A6847;
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius: 50px;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+.a-flyer:hover{
+    background-color:#0A6847;
+    color:white;
+    padding:10px 35px;
+    border-radius: 50px;
+    transform: scale(1.1, 1);
+    transition-duration: 1s;
+}
+.title-reseñas{
+    font-size: 3rem;
+    color:#095037;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    width:60%;
+}
+.p-index{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right:10px;
+    margin-right: 5px;
+}
+.number{
+    font-size: 3rem;
+    color:black;
+}
+
+.columnaUnoOpiniones .icon-opiniones{
+    font-size: 2.5rem;
+}
+.columnDosOpiniones{
+    margin:50px 30px;
+    padding:30px;
+    border: 1px solid #095037;
+    border-radius: 50px;
+}
+.img-perfil{
+    width:100px;
+    height: 100px;
+}
+.text-index-opiniones{
+    width:95%;
+    color:rgb(85, 85, 85);
+}
+
+.carousel{
+    width:100%;
+    height:300px;
+}
+
+.opiniones{
+    margin:20px;
+    padding: 10px;
+}
+.p-opiniones{
+    color:#0A6847;
+    width:200px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 30px;
+
+}
+.p-testimonio{
+    font-size: 1.1rem;
+    color:#000000;
+    font-weight: 500;
+}
+
+.flyer2{
+    background-position: center;
+    background-size: 100%;
+    height:60vh;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/flyer2.jpg);
+}
+.title-flyer2{
+    font-size: 2.3rem;
+    color:white;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:90%;
+}
+.text-flyer2{
+    color:white;
+    font-size: 1.05rem;
+    width:95%;
+}
+
+
+.btn-flyer{
+    background-color: white;
+    color:#0A6847;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-flyer:hover{
+    background-color: #0A6847;
+    color:white;
+    transform: scale(1, 0.95);
+    transition-duration: 1s;
+}
+.carousel-inner-parte1{
+    width:550px;
+    height: 380px;
+}
+
+.dropdown-toggle{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.dropdown-toggle:hover{
+    color:#000000;
+}
+.maquinas-carousel{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.img-maquina{
+    margin:10px;
+    width:280px;
+    height: 200px;   
+}
+.img-maquina:hover{
+    filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.178));
+    transform: scale(1.1, 1);
+    transition-duration: 0.5s;
+}
+
+
+.form-index{
+    color:#0A6847;
+    width:315px
+}
+.form-index-mensaje{
+    width: 645px;
+    color:#0A6847;
+}
+
+/*MAQUINAS*/
+.a-maquinas{
+    color:#000000;
+    text-decoration: none;
+}
+.a-maquinas:hover{
+    color:#0A6847;
+}
+.videos-maquina{
+    margin: 30px;
+    padding: 10px 30px;
+}
+.title-videos{
+    color:#0A6847;
+    font-size: 1rem;
+}
+.text-maquina{
+    color:black;
+    line-height: 2;
+    margin:0 20px ;
+    padding: 0 20px;
+}
+
+.img-carousel-maquina{
+    width:280px;
+    height: 200px;
+}
+
+.header-maquina{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/background\ \(4\).jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+
+}
+
+/*VIAL*/
+.header-vial{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/background\ \(4\).jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+
+}
+/*Henificacion y forraje*/
+.header-hf{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/background\ \(4\).jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+}
+.img-hf{
+    width:300px;
+    height: 200px;
+    margin:10px;
+    padding:20px;
+}
+.img-hf:hover{
+    transform: scale(1.05, 1.1);
+    transition-duration: 1.5s;
+}
+.maquina-hf{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+   
+}
+.p-hf{
+    font-size: 1rem;
+    list-style: none;
+}
+.a-hf{
+    color:#0A6847;
+    text-decoration: none;
+}
+.a-hf:hover{
+    color:#095037;
+    text-decoration: none;
+}
+.title-hf{
+    font-size: 1rem;
+    letter-spacing: 1.1px;
+    font-weight: 500;
+    margin-top: 20px;
+    color:#095037;
+}
+.lista-hf{
+    line-height: 35px;
+    text-align: justify;
+}
+
+.caracteristicas-hf{
+    color:#818181;
+    margin: 30px;
+    font-weight: 700;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.imgExtensa-hf{
+    width:480px;
+    height:280px;
+}
+.hf-img{
+    width:400px;
+    height:310px;
+    padding-left: 20px;
+}
+.maquina-extensa{
+    border: 1px solid #095037;
+}
+
+
+/*Siembra y cosecha*/
+.header-sc{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/background\ \(4\).jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+
+}
+
+
+
+
+/*NOSOTROS*/
+.header-nosotros{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/img-nosotros.jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+}
+.portada-title-nosotros{
+    width:50%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section-nosotros{
+    border-bottom: 2px solid white;
+}
+.img-viviendas{
+    width:120px;
+    height:85px;
+    margin:0px 30px;
+}
+
+.main-nosotros{
+    margin:40px;
+}
+.main-nosotros .text-nosotros{
+    color:black;
+    text-align: justify;
+    line-height: 2;
+}
+
+.main-nosotros .text-introduccion{
+    color:#818181;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.main-nosotros .title-2{
+    color:#0A6847;
+    padding-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-carousel{
+    width:380px;
+    height: 300px;
+    margin:5px 20px ;
+}
+.img-carousel:hover, .img-carousel-extra:hover{
+    transform: scale(1.05, 1.08);
+    transition-duration: 1.3s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+
+}
+.img-carousel-extra{
+    width:280px;
+    height: 200px;
+}
+
+
+/*CONTACTO*/
+.header-contacto{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/img-contacto.jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+}
+.logo-footer{
+    width: 210px;
+    height: 180px;
+}
+
+.footer{
+    background-color: #0A6847;
+    
+    a{
+        list-style: none;
+        text-decoration: none;
+        text-align: left;
+        color:white;
+        font-weight: 600;
+        font-size: 1.1rem;
+
+        &:hover{
+            color:rgba(255, 255, 255, 0.692);
+        }
+    }
+    li{
+        padding:10px;
+    }
+
+    .icon{
+        font-size: 1.8rem;
+        color:white;
+        &:hover{
+            color:rgba(255, 255, 255, 0.692);
+            border:none;
+        }
+    }
+    .logo-footer{
+        width: 210px;
+        height: 100px;
+    }
+
+.f-derechos{
+    background-color: #095037;
+    width: 100%;
+    padding:10px;
+    color:white;
+    font-size: 0.8rem;
+
+
+}}
+
+/*CONTACTO*/
+.main-contacto{
+    margin: 20px;
+    padding:20px;
+}
+
+.main-contacto, .form-contacto{
+    margin:0 20px;
+}
+.btn-contacto{
+    margin: 20px;
+    padding:20px;
+}
+.btn-contacto .btn-enviar{
+    background-color: #0A6847;
+    color:white;
+    padding: 5px 25px;
+    margin-right: 10px;
+}
+.btn-contacto .btn-reset{
+    border: 1px solid #0A6847;
+    color:#0A6847;
+    padding: 5px 15px;
+
+}
+.btn-contacto .btn-reset:hover{
+    background-color: #0A6847;
+    color:white;
+    padding: 5px 15px;
+
+}
+.btn-contacto .btn-enviar:hover{
+    background-color: #095037;
+    color:white;
+    padding: 5px 25px;
+    margin-right: 10px;
+}
+ .icon{
+    font-size: 1.8rem;
+    color:white;
+    &:hover{
+        color:rgba(255, 255, 255, 0.692);
+        border:none;
+    }
+}
+
+.info-contacto, .fa-solid{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-right: 10px;
+    color:#095037;
+    text-align: left;
+}
