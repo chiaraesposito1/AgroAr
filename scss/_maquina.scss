@@ -1,0 +1,30 @@
+.header-maquina{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/background\ \(4\).jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+
+}
+.a-maquinas{
+    color:#000000;
+    text-decoration: none;
+    &:hover{
+        color:#0A6847;
+}}
+.videos-maquina{
+    padding: 10px;
+    margin: 10px;
+    .text-maquina{
+    color:black;
+    line-height: 2;
+    margin:0 40px ;
+    padding: 0 20px;
+}}
+.title-videos{
+    color:#0A6847;
+    font-size: 1rem;
+}
+.img-maquina{
+    width:280px;
+    height: 200px;
+}

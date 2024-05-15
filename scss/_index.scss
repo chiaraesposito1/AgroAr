@@ -1,0 +1,235 @@
+.header-index{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/img/img-backgroundIndez.jpg);
+    background-position: center;
+    height: 110vh;
+    background-size: cover;
+ p{
+    width:45%;
+    margin:10px;
+    padding-bottom: 10px ;   
+    font-size: 1.05rem;
+    line-height: 2;
+    
+}
+ .portada-title{
+    width:50%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-portada{
+    background-color: rgb(255, 255, 255);
+    color:#36240d;
+    width:25%;
+    padding:10px 40px;
+    border-radius: 50px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    &:hover{
+      background-color:#36240d;
+    color:white;
+    padding:10px 35px;
+    border-radius: 50px;
+    transform: scale(1.1, 1);
+    transition-duration: 1s;  
+    }
+}}
+
+ .title{
+    font-size: 3rem;
+    color:#095037;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.text-introduccion{
+    color:#818181;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.text-index{
+    color:rgb(85, 85, 85);
+    text-align: justify;
+    line-height: 1,5;
+    padding-bottom: 10px;
+    width:90%;
+} 
+.fa-solid{
+    font-size: 2rem;
+    color:#095037;
+    padding-right: 15px;
+}
+.fa-star{
+    font-size: 1.2rem;
+    color:#095037;
+    padding-right: 10px;
+}
+.img-index{
+    width:600px;
+    height: 380px;
+}    
+.a-index{
+    color:black;
+    text-decoration: none;
+    &:hover{
+    color:#0A6847;
+}
+}
+
+.flyer{
+    background-image: url(../assets/img/carousel-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    height:55vh;
+    object-fit: cover;
+    width: 100%;
+    margin:50px 0 30px;
+.fondo-blur{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.356);
+    width:60%;
+    height:55vh;
+}
+.p-flyer{
+    font-size: 1.2rem;
+}
+.a-flyer{
+    background-color: white;
+    color:#0A6847;
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius: 50px;
+    font-size: 1.05rem;
+    font-weight: 500;
+        &:hover{
+        background-color:#0A6847;
+        color:white;
+        padding:10px 35px;
+        border-radius: 50px;
+        transform: scale(1.1, 1);
+        transition-duration: 1s;
+    }}}
+
+.opiniones{
+    margin:20px;
+    padding: 10px;
+    .title-reseñas{
+    font-size: 3rem;
+    color:#095037;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    width:60%;
+}
+    .text-index-opiniones{
+        width:95%;
+        color:rgb(85, 85, 85);
+}
+    .icon-opiniones{
+        font-size: 2.5rem;
+        padding-right: 10px;
+        color:#095037;
+}
+    .p-opiniones{
+        color:#0A6847;
+        width:200px;
+        padding-right: 10px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-right: 30px;
+   .number{
+        font-size: 3rem;
+        color:black;
+}
+}
+    .columnDosOpiniones{
+        margin:50px 30px;
+        padding:30px;
+        border: 1px solid #095037;
+        border-radius: 50px;
+        .p-testimonio{
+            font-size: 1.1rem;
+            color:#000000;
+            font-weight: 500;
+        }
+        .carousel{
+            width:100%;
+            height:300px;
+        
+        .img-perfil{
+            width:100px;
+            height: 100px;
+        }}}}
+
+.p-index{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right:10px;
+    margin-right: 5px;
+}
+
+.flyer2{
+    background-position: center;
+    background-size: 100%;
+    height:60vh;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/flyer2.jpg);
+    .title-flyer2{
+        font-size: 2.3rem;
+        color:white;
+        font-weight: 600;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width:90%;
+}
+    .text-flyer2{
+        color:white;
+        font-size: 1.05rem;
+        width:95%;
+}
+    .btn-flyer{
+        background-color: white;
+        color:#0A6847;
+        border-radius: 50px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        &:hover{
+            background-color: #0A6847;
+            color:white;
+            transform: scale(1, 0.95);
+            transition-duration: 1s;
+        }
+}.form-index{
+    color:#0A6847;
+    width:315px
+}
+.form-index-mensaje{
+    width: 645px;
+    color:#0A6847;
+}
+}
+
+.carousel-inner-parte1{
+    width:550px;
+    height: 380px;
+}
+
+.maquinas-carousel{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.img-maquina{
+    margin:10px;
+    width:280px;
+    height: 200px;   
+    &:hover{
+        filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.178));
+        transform: scale(1.1, 1);
+        transition-duration: 0.5s;
+    }}

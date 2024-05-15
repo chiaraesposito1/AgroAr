@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.navbar-nav{
+    list-style: none;
+    .nav-link{
+        color:white;
+        font-size: 1.2rem;
+        margin:10px;
+        &:hover{
+            color:#000000;
+            border-bottom: 1px solid black ;
+        }
+    }
+    .nav-item{
+        width:200px;
+        margin-top:20px;
+        text-align: center;
+    .img-logo{
+        width:160px;
+        height:85px;
+
+    }}
+    .dropdown-toggle{
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        &:hover{
+            color:#000000;
+        }}
+}
+
+.portada-textos{
+    margin:10px;
+    color:white;
+}
+
+.maquina{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+.maquina-index{
+    width:350px;
+    height: 280px;
+    margin:10px;
+    padding:10px;
+        &:hover{
+            transform: scale(1.2,1.1);
+            transition-duration: 1.5s;
+        }
+}}
+
+.portada-title-nosotros{
+    width:50%;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.maquina-hf{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    .img-hf{
+        width:300px;
+        height: 250px;
+        margin:10px;
+        padding:20px;
+        &:hover{
+            transform: scale(1.05, 1.1);
+            transition-duration: 1.5s;
+        }
+    }
+    .p-hf{
+        font-size: 1rem;
+        list-style: none;
+    }
+}
+.a-hf{
+    color:#0A6847;
+    text-decoration: none;
+    &:hover{
+        color:#095037;
+        text-decoration: none;
+    }}
+    .title-hf{
+        font-size: 1rem;
+        letter-spacing: 1.1px;
+        font-weight: 500;
+        margin-top: 20px;
+        color:#095037;
+    }
+    .lista-hf{
+        line-height: 35px;
+        text-align: justify;
+    }
+    .caracteristicas-hf{
+        color:#818181;
+        margin: 30px;
+        font-weight: 700;
+        padding: 10px 30px;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    .imgExtensa-hf{
+        width:480px;
+        height:380px;
+    }
+    .hf-img{
+        width:500px;
+        height:400px;
+        padding-left: 20px;
+    }
+    .maquina-extensa{
+        border: 1px solid #095037;
+    }
+
+.footer{
+    background-color: #0A6847;
+    a{
+        list-style: none;
+        text-decoration: none;
+        text-align: left;
+        color:white;
+        font-weight: 600;
+        font-size: 1.1rem;
+            &:hover{
+                color:rgba(255, 255, 255, 0.692);
+            } }
+    li{
+        padding:10px;
+    }
+    .icon{
+        font-size: 1.8rem;
+        color:white;
+        &:hover{
+            color:rgba(255, 255, 255, 0.692);
+            border:none;
+        }}
+    .logo-footer{
+        width: 210px;
+        height: 100px;
+    }
+    .f-derechos{
+        background-color: #095037;
+        width: 100%;
+        padding:10px;
+        color:white;
+        font-size: 0.8rem;
+} 
+}

@@ -1,0 +1,51 @@
+.header-nosotros{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/img/img-nosotros.jpg);
+    background-position: center;
+    height: 65vh;
+    background-size: cover;
+}
+
+.img-viviendas{
+    width:120px;
+    height:85px;
+    margin:0px 30px;
+}
+
+.main-nosotros{
+    margin:40px;
+ .text-nosotros{
+    color:black;
+    text-align: justify;
+    line-height: 2;
+}
+    .text-introduccion{
+        color:#818181;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .title-2{
+        color:#0A6847;
+        padding-bottom: 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.img-carousel{
+    width:380px;
+    height: 300px;
+    margin:5px 20px ;
+        &:hover{
+        transform: scale(1.05, 1.08);
+        transition-duration: 1.3s;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699); 
+    }
+    }
+.img-carousel-extra{
+    width:280px;
+    height: 200px;
+    &:hover{
+        transform: scale(1.05, 1.08);
+        transition-duration: 1.3s;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699); 
+    }
+}
